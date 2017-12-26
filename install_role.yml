@@ -1,0 +1,7 @@
+---
+- hosts: all
+
+  tasks:
+
+  - name: Install role
+    command: ansible-galaxy install -r requirements.yml
