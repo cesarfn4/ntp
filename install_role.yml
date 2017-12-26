@@ -1,7 +1,7 @@
 ---
-- hosts: localhost
-
+- name: Install role
+  hosts: all
+  gather_facts: false
   tasks:
-
-  - name: Install role
-    command: ansible-galaxy install -r requirements.yml
+    - name: Install role
+      shell: ansible-galaxy install -r requirements.yml
