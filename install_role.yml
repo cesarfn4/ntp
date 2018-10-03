@@ -4,4 +4,4 @@
   gather_facts: false
   tasks:
     - name: Install role
-      shell: ansible-galaxy install -r requirements.yml
+      shell: ansible-galaxy install -r requirements.yml --force 
