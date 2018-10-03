@@ -1,7 +1,0 @@
----
-- name: Install role
-  hosts: all
-  gather_facts: false
-  tasks:
-    - name: Install role
-      shell: ansible-galaxy install -r requirements.yml --force 
