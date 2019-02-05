@@ -1,5 +1,5 @@
 ---
-- name: install the latest version of Apache
+- name: Install NTP from Cesar Branch
   yum:
     name: ntpd
     state: latest
